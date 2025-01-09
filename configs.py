@@ -4,7 +4,7 @@ class Config(object):
   API_ID = int(os.environ.get("API_ID", "22660802"))
   API_HASH = os.environ.get("API_HASH", "fec849af712bc23ab5f18277b1592d2e")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "8043699772:AAHsOgVvDQXnGx5QEJSvaYGHj7brWnGybnY")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "All_Anime_in_Hindi_Dub_Watch_Bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "MoneyKamalo.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "0eefb93e1e3ce9470a7033115ceb1bad13a9d674")
